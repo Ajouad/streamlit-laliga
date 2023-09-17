@@ -15,7 +15,7 @@ seasons = [f"season-{i}{i+1}" for i in range(10, 19)]
 dataframes = []
 
 for season in seasons:
-    filename = f'FinalProject/spanish-la-liga_zip/data/{season}_csv.csv'
+    filename = f'spanish-la-liga_zip/data/{season}_csv.csv'
     
     try:
         temp_df = pd.read_csv(filename)
