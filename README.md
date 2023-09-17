@@ -43,6 +43,7 @@ After building the image, run the container:
 docker run -p 8501:8501 your-image-name
 
 This command maps port 8501 inside the container to port 8501 on your machine.
+We copy the data into the container which is not the best way (we would prefer to use volumes), but actually the dataset is quite small. 
 
 ### 3. Access the Streamlit App:
 With the container running, open a web browser and navigate to:
