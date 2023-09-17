@@ -23,11 +23,6 @@ To install the necessary dependencies, use the following command:
 pip install -U -r requirements.txt
 
 
-## Launching the web app
-Detailed instructions on launching the Streamlit web app are provided in the repository. Ensure you've set up everything as mentioned above.
-
-
-
 ## Launching the Web App using Docker
 To run the Streamlit web app using Docker, follow these steps:
 
